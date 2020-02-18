@@ -16,12 +16,91 @@ code {
 }
 
 .App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: black;
+}
+
+.who-are-we{
+  padding-top:50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.why-trust-us{
+  padding-top:50px;
+  width:60%;
+  align-self: center;
+}
+
+.why-trust-us p{
+  font-size:25px;
+}
+
+.who-are-we-text{
+  width:40%;
+  padding-right:50px;
+}
+.who-are-we-text p{
+  font-size:25px;
+}
+
+.who-are-we-image{
+  width:20%;
+  height:100%;
+}
+
+.stats-box-container{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+}
+
+.stats-box-row{
+  display:flex;
+  text-align:center;
+  justify-content: space-around;
+}
+
+.stats-box-row p{
+  font-size:23px;
+}
+.padding-top50{
+  padding-top:50px;
+}
+
+.mission-statement{
+  padding: 15px;
+  align-self:center;
+  width: 60%;
+  font-size:25px;
+  outline-style:double;
+  outline-color:black;
+  outline-width:thick;
+}
+
+.footer{
+  padding-top: 100px;
+  padding-bottom:15px;
+}
+
+.navbar-tabs{
+  cursor:pointer;
+}
+
+.bold-stats{
+  color:blue;
+  font-size:75px;
+  font-weight:bolder;
+}
+
+.review{
+  padding:15px;
+  outline-style:solid;
+  outline-color:lightgray;
+}
+.review-stars{
+  color:red;
 }
