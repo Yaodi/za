@@ -9,7 +9,7 @@ import {
 
 export default class Navbar extends Component {
     render() {
-        const departments = ['REAL ESTATE', 'ACCOUNTING', 'INSURANCE', 'SIGNATURE SEMINAR', 'JOIN OUR TEAM']
+        const departments = ['HOME', 'ACCOUNTING', 'RISK MANAGEMENT', 'TAX PLANNING', 'REAL ESTATE INVESTMENT']
         return (
             <Flex className="navbar" flexDirection='column'>
                 <Flex className="navbar-top">

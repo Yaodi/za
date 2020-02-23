@@ -42,7 +42,6 @@ export default class Homepage extends Component {
 
                 <div className="who-are-we">
                     <div className="who-are-we-text">
-                        <h1>Who Are We</h1>
                         <p>
                             I am the founder and leader of Zhou Agency, and I started this business 20 years ago with the dream of helping people understand their financial story.
                         </p>
@@ -89,7 +88,7 @@ export default class Homepage extends Component {
 
 
                     <h1>Statistics</h1>
-                    <div className="stats-box-container">
+                    <div className="stats-box-container" style={{ backgroundColor: "lightgray" }}>
                         <div className="stats-box-row">
                             <div>
                                 <div className="bold-stats">
