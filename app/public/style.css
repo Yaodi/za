@@ -1,16 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Crimson Text";
+  /* font-family: "Ovo"; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 .App {
   text-align: center;
 }
@@ -21,86 +18,154 @@ code {
   align-items: center;
 }
 
-.who-are-we{
-  padding-top:50px;
-  display:flex;
+.logo {
+  padding-left: 50px;
+  color: #7b0000;
+  text-align: center;
+  width: 30%;
+}
+
+.your-financial-family {
+  float: right;
+  padding-right: 25%;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #7b0000;
+  text-align: center;
+  width: 20%;
+  /* border: solid red; */
+}
+
+.who-are-we {
+  padding-top: 50px;
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.why-us {
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.why-trust-us p {
+  font-size: 25px;
+}
+
+.who-are-we-text {
+  width: 40%;
+  padding-right: 50px;
+}
+.who-are-we-text p {
+  font-size: 25px;
+}
+
+.who-are-we-image {
+  width: 20%;
+  height: 100%;
+}
+
+.stats-box-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+.stats-box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.stats-box-row {
+  display: flex;
   text-align: center;
-}
-
-.why-trust-us{
-  padding-top:50px;
-  width:60%;
-  align-self: center;
-}
-
-.why-trust-us p{
-  font-size:25px;
-}
-
-.who-are-we-text{
-  width:40%;
-  padding-right:50px;
-}
-.who-are-we-text p{
-  font-size:25px;
-}
-
-.who-are-we-image{
-  width:20%;
-  height:100%;
-}
-
-.stats-box-container{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-}
-
-.stats-box-row{
-  display:flex;
-  text-align:center;
   justify-content: space-around;
 }
 
-.stats-box-row p{
-  font-size:23px;
+.stats-box-row p {
+  font-size: 1.7vw;
 }
-.padding-top50{
-  padding-top:50px;
+.padding-top50 {
+  padding-top: 50px;
 }
 
-.mission-statement{
+.mission-statement {
   padding: 15px;
-  align-self:center;
-  width: 60%;
-  font-size:25px;
-  outline-style:double;
-  outline-color:black;
-  outline-width:thick;
+  width: 85%;
+  margin: auto;
+  font-size: 25px;
+  outline-style: double;
+  outline-color: black;
+  outline-width: thick;
+}
+.home-image {
+  height: 739px;
+  background-image: url(images/home-background.jpg);
+  /* background-size: auto; */
+  /* background-color: white; */
+  /* opacity: 0.5; */
+}
+.home-content {
+  margin: auto;
+  width: 75%;
+  background-color: white;
 }
 
-.footer{
+.footer {
   padding-top: 100px;
-  padding-bottom:15px;
+  padding-bottom: 15px;
 }
 
-.navbar-tabs{
-  cursor:pointer;
+.navbar-tabs {
+  padding-top: 0.5%;
+  cursor: pointer;
+}
+.navbar-top {
+  align-self: flex-end;
+  padding-right: 2%;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
 }
 
-.bold-stats{
-  color:blue;
-  font-size:75px;
-  font-weight:bolder;
+.bold-stats {
+  color: #7b0000;
+  font-size: 5vw;
+  font-weight: bolder;
 }
 
-.review{
-  padding:15px;
-  outline-style:solid;
-  outline-color:lightgray;
+.reviews-container {
+  margin: auto;
+  width: 100%;
 }
-.review-stars{
-  color:red;
+.review {
+  padding: 15px;
+  outline-style: solid;
+  outline-color: lightgray;
+}
+.review-stars {
+  color: red;
+}
+
+.home-container {
+  background-color: #7b0000;
+}
+.jun {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .bold-stats {
+    font-size: 30px;
+  }
 }
