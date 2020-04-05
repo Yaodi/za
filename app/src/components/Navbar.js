@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Box, Flex, Text, Image, Button } from "rebass";
+import { Flex, Text } from "rebass";
 
 export default class Navbar extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class Navbar extends Component {
     return (
       <Flex className="navbar" flexDirection="column">
         <Flex className="navbar-top">
-          <span> English | Chinese | Join Our Team | Contact Us</span>
+          <span> Chinese | Join Our Team | Contact Us</span>
         </Flex>
         <Flex className="navbar-tabs">
           {departments.map(department => (

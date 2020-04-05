@@ -1,29 +1,28 @@
 import React, { Component } from "react";
-import { Box, Flex, Heading, Text, Image } from "rebass";
 import Navbar from "./Navbar";
+import { homePageReviews } from "../constants";
+import Reviews from "./Reviews";
 
 export default class Homepage extends Component {
   render() {
     return (
-      <Flex className="home-container" flexDirection="column" maxWidth="100%">
+      <div className="home-container" flexDirection="column" maxWidth="100%">
         <div className="home-image">
-          <Navbar />
-          {/* <div className="logo">
-            <h1>Zhou Agency</h1>
-            <h4>Your Trusted Advisor</h4>
-          </div> */}
-          <div className="your-financial-family">
-            <h1>Zhou Agency</h1>
-            <p>
-              We are a team of dedicated experts ready to help you with all your
-              financial needs
-            </p>
+          <img className="hidden" src="images/home-background.jpg" />
+          <div className="home-image-content">
+            <Navbar />
+            <div className="logo">
+              <h1>Zhou Agency</h1>
+              <p>
+                We are a team of dedicated experts ready to help you with all
+                your financial needs
+              </p>
+            </div>
           </div>
         </div>
         <div className="home-content">
           <div className="who-are-we">
             <div className="who-are-we-text">
-              {/* <h1>About</h1> */}
               <br />
               <p>
                 Hi, my name is Justine, and I am the founder of Zhou agency. I
@@ -41,55 +40,12 @@ export default class Homepage extends Component {
                 and finding the best solution for you is the mission of my
                 company.
               </p>
-              {/* <p>
-                Zhou Agency is a small, family-run business that is committed to
-                making a difficult process more understandable. I never use
-                jargon when speaking to customers, because I am not here to
-                impress you with complicated terminology. I am here to help you
-                understand where you are at now so you can get to where you want
-                to be.
-              </p> */}
             </div>
-            <img
-              src="images/jun.png"
-              height="450"
-              width="450"
-              alt="Avatar"
-              className="jun"
-            />
+            <img src="images/jun.png" className="jun" />
           </div>
           <div className="why-us">
             <h1>Reviews</h1>
-
-            <div className="reviews-container">
-              <div className="review">
-                <div className="review-text">
-                  This is a 5 star review! couldn't be happier
-                </div>
-                <div className="review-stars">
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                </div>
-                <div className="review-author">-Yaodi Hu</div>
-              </div>
-              <br />
-              <div className="review">
-                <div className="review-text">
-                  This is a 5 star review! couldn't be happier
-                </div>
-                <div className="review-stars">
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                  <span>★</span>
-                </div>
-                <div className="review-author">-Yaodi Hu</div>
-              </div>
-            </div>
+            <Reviews reviews={homePageReviews} />
             <br />
 
             <h1>Statistics</h1>
@@ -99,21 +55,21 @@ export default class Homepage extends Component {
             >
               <div className="stats-box-content">
                 <div className="stats-box-row">
-                  <div>
+                  <div className="stats">
                     <div className="bold-stats">95%</div>{" "}
                     <p>Retention rate for insurance</p>
                   </div>
-                  <div>
+                  <div className="stats">
                     <div className="bold-stats">1,685</div>
                     <p>Tax returns filed in 2019</p>
                   </div>
                 </div>
                 <div className="stats-box-row">
-                  <div>
+                  <div className="stats">
                     <div className="bold-stats">500+</div>{" "}
                     <p>Families assisted in finding a property</p>
                   </div>
-                  <div>
+                  <div div className="stats">
                     <div className="bold-stats">102</div>{" "}
                     <p>Small businesses with full service accounting</p>
                   </div>
@@ -124,16 +80,14 @@ export default class Homepage extends Component {
           </div>
           <div className="mission-statement">
             <i>
-              {" "}
-              <b>Mission Statement:</b> To build meaningful, lasting
-              relationship with clients while securing their financial future.
-              To create an energizing work environment that encourages constant
-              personal and professional growth.
+              Our mission is to build meaningful, lasting relationship with
+              clients while securing their financial future. To create an
+              energizing work environment that encourages constant personal and
+              professional growth.
             </i>
           </div>
         </div>
-        <hr />
-      </Flex>
+      </div>
     );
   }
 }
