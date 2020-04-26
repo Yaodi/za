@@ -14,48 +14,7 @@ export default class Accounting extends Component {
           </div>
           <div className="accounting-content">
             <br />
-            <table className="services-table">
-              <caption className="accounting-table-header">
-                Accounting Services
-              </caption>
 
-              <tr>
-                <td>
-                  <b>Individual </b>
-                  <br />
-                </td>
-                <td>
-                  <b>Business</b>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  ❖ Tax Returns
-                  <br />
-                  <br />
-                  ❖ Tax Planning
-                  <br />
-                  <br />
-                  ❖ Tax consultation
-                  <br />
-                  <br />❖ Tax Appeal
-                </td>
-                <td>
-                  ❖ Tax Returns
-                  <br />
-                  ❖ Bookkeeping
-                  <br />
-                  ❖ Corp/LLC Setup
-                  <br />
-                  ❖ Payroll Processing
-                  <br />
-                  ❖ Sales Tax
-                  <br />
-                  ❖ Financial Reporting
-                  <br />❖ Financial Review
-                </td>
-              </tr>
-            </table>
             <div className="accounting-header">Meet our accounting team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
@@ -87,6 +46,50 @@ export default class Accounting extends Component {
                 </p>
               </div>
             </div>
+            <table className="services-table">
+              <caption className="accounting-table-header">
+                Accounting Services
+              </caption>
+              <br />
+              <br />
+              <br />
+              <tr>
+                <th>
+                  <b className="centered-text">Individual </b>
+                  <br />
+                </th>
+                <th>
+                  <b className="centered-text">Business</b>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  Tax Returns
+                  <br />
+                  <br />
+                  Tax Planning
+                  <br />
+                  <br />
+                  Tax consultation
+                  <br />
+                  <br /> Tax Appeal
+                </td>
+                <td>
+                  Tax Returns
+                  <br />
+                  Bookkeeping
+                  <br />
+                  Corp/LLC Setup
+                  <br />
+                  Payroll Processing
+                  <br />
+                  Sales Tax
+                  <br />
+                  Financial Reporting
+                  <br /> Financial Review
+                </td>
+              </tr>
+            </table>
 
             <div className="accounting-reviews">
               <h1>Reviews</h1>
