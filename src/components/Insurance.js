@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { accountingReviews } from "../constants";
 import Reviews from "./Reviews";
 
-export default class Accounting extends Component {
+export default class Insurance extends Component {
   render() {
     return (
       <>
@@ -13,12 +13,10 @@ export default class Accounting extends Component {
             <div className="accounting-text"></div>
           </div>
           <div className="accounting-content">
-            <br />
             <table className="services-table">
               <caption className="accounting-table-header">
-                Accounting Services
+                Insurance Services
               </caption>
-
               <tr>
                 <td>
                   <b>Individual </b>
@@ -30,33 +28,33 @@ export default class Accounting extends Component {
               </tr>
               <tr>
                 <td>
-                  ❖ Tax Returns
-                  <br />
-                  <br />
-                  ❖ Tax Planning
-                  <br />
-                  <br />
-                  ❖ Tax consultation
-                  <br />
-                  <br />❖ Tax Appeal
+                  ❖ Auto
+                  <br />❖ Homeowners
+                  <br />❖ Renters
+                  <br />❖ Landlord
+                  <br />❖ Umbrella
+                  <br />❖ Medical
+                  <br />❖ Term Life
+                  <br />❖ Permanent Life
+                  <br />❖ Annuity
+                  <br />❖ Disability
                 </td>
                 <td>
-                  ❖ Tax Returns
-                  <br />
-                  ❖ Bookkeeping
-                  <br />
-                  ❖ Corp/LLC Setup
-                  <br />
-                  ❖ Payroll Processing
-                  <br />
-                  ❖ Sales Tax
-                  <br />
-                  ❖ Financial Reporting
-                  <br />❖ Financial Review
+                  ❖ Property
+                  <br />❖ Liability
+                  <br />❖ Workers Comp
+                  <br />❖ Business Interruption
+                  <br />❖ Business Continuation
+                  <br />❖ Employee Benefits
+                  <br />❖ Umbrella
+                  <br />❖ Key Person
+                  <br />❖ Cyber
+                  <br />❖ EPLI
                 </td>
               </tr>
             </table>
-            <div className="accounting-header">Meet our accounting team</div>
+            <div className="accounting-header">Meet Our Insurance Team</div>
+
             <div className="accounting-pictures">
               <div className="accounting-row">
                 <img src="images/jun.png" className="accounting-picture" />

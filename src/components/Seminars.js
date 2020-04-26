@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { accountingReviews } from "../constants";
 import Reviews from "./Reviews";
 
-export default class Accounting extends Component {
+export default class Seminars extends Component {
   render() {
     return (
       <>
@@ -13,50 +13,7 @@ export default class Accounting extends Component {
             <div className="accounting-text"></div>
           </div>
           <div className="accounting-content">
-            <br />
-            <table className="services-table">
-              <caption className="accounting-table-header">
-                Accounting Services
-              </caption>
-
-              <tr>
-                <td>
-                  <b>Individual </b>
-                  <br />
-                </td>
-                <td>
-                  <b>Business</b>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  ❖ Tax Returns
-                  <br />
-                  <br />
-                  ❖ Tax Planning
-                  <br />
-                  <br />
-                  ❖ Tax consultation
-                  <br />
-                  <br />❖ Tax Appeal
-                </td>
-                <td>
-                  ❖ Tax Returns
-                  <br />
-                  ❖ Bookkeeping
-                  <br />
-                  ❖ Corp/LLC Setup
-                  <br />
-                  ❖ Payroll Processing
-                  <br />
-                  ❖ Sales Tax
-                  <br />
-                  ❖ Financial Reporting
-                  <br />❖ Financial Review
-                </td>
-              </tr>
-            </table>
-            <div className="accounting-header">Meet our accounting team</div>
+            <div className="accounting-header">Meet Our Tax Planning Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 <img src="images/jun.png" className="accounting-picture" />

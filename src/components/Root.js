@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import Homepage from "./HomePage";
-import Accounting from "./Accounting";
+import Routes from "./Routes"
 
 export default class Root extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <Homepage />
-          {/* <Accounting /> */}
+          <Routes />
         </header>
         <div className="footer">
           © 2019 Zhou Agency | 625 N Michigan Ave | Suite 1705 | Chicago, IL
