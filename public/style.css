@@ -305,6 +305,13 @@ body {
   padding: 0px 50px;
 }
 
+.seminar-philosophy {
+  padding-bottom: 25px;
+  width: 60%;
+  margin: auto;
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 768px) {
   .bold-stats {
     font-size: 30px;

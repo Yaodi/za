@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import { accountingReviews } from "../constants";
-import Reviews from "./Reviews";
 
 export default class Seminars extends Component {
   render() {
@@ -13,50 +11,40 @@ export default class Seminars extends Component {
             <div className="accounting-text"></div>
           </div>
           <div className="accounting-content">
-            <div className="accounting-header">Meet Our Tax Planning Team</div>
-            <div className="accounting-pictures">
-              <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
-                <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
-                </p>
-              </div>
-              <div className="accounting-row">
-                <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
-                </p>
-                <img src="images/jun.png" className="accounting-picture" />
-              </div>
-              <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
-                <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
-                </p>
-              </div>
+            <div className="accounting-header">Seminars</div>
+            <div className="seminar-philosophy">
+              I began running tax planning seminars over 15 years ago. Since, it
+              has become one of my favorite services to provide because there is
+              nothing more satisfying than when a customer truly understands
+              what they are doing with their money. All of our seminars are
+              free. We believe education is the key to long-term financial
+              success. Our interactive forum allows you to get the answers you
+              need.
             </div>
-
-            <div className="accounting-reviews">
-              <h1>Reviews</h1>
-              <Reviews reviews={accountingReviews} />
-            </div>
+            <a className="accounting-header" href={window.location}>
+              Sign Up
+            </a>
+            <a className="accounting-header" href={window.location}>
+              Leave Feedback
+            </a>
+            <div className="accounting-header">Previous Seminars</div>
+            <iframe
+              title="simp"
+              src="https://player.vimeo.com/video/411613447"
+              width="640"
+              height="360"
+              frameborder="0"
+              allow="autoplay;fullscreen"
+            />
+            <hr />
+            <iframe
+              title="enriqueSimp"
+              src="https://player.vimeo.com/video/406332448"
+              width="640"
+              height="360"
+              frameborder="0"
+              allow="autoplay;fullscreen"
+            />
           </div>
         </div>
       </>
