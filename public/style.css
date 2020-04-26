@@ -267,7 +267,7 @@ body {
 }
 
 .accounting-picture {
-  width: 30%;
+  width: 35%;
   height: auto;
   border-radius: 50%;
 }
@@ -285,7 +285,7 @@ body {
 }
 
 .accounting-row p {
-  width: 40%;
+  width: 35%;
   /* padding: 40px; */
 }
 .accounting-table-header {

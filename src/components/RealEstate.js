@@ -44,39 +44,17 @@ export default class RealEstate extends Component {
             <div className="accounting-header">Meet Our Real Estate Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/yongle.jpeg" className="accounting-picture" />
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
-                </p>
-              </div>
-              <div className="accounting-row">
-                <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
-                </p>
-                <img src="images/jun.png" className="accounting-picture" />
-              </div>
-              <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
-                <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Yongle is the Property Manager that oversees the entire
+                  property portfolio for our real estate clients. Prior to
+                  joining Zhou Agency, Yongle worked as an accountant at
+                  Berkshire Hathaway Koenig Rubloff Realty Group and held Real
+                  Estate broker assistant role at Buzz Real Estate. Yongle also
+                  has professional experience in managing client relationships
+                  having most recently worked at Eastland Food Corporation as a
+                  regional account manager. Yongle graduated from Loyola
+                  University in 2015 with a degree in Finance.
                 </p>
               </div>
             </div>

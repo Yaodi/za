@@ -59,39 +59,31 @@ export default class Accounting extends Component {
             <div className="accounting-header">Meet our accounting team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/leah.jpg" className="accounting-picture" />
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Li is a certified QuickBooks ProAdvisor. She provides clients
+                  with tax preparation, financial accounting, and business set
+                  up consulting service. She graduated from Shanghai Jiao Tong
+                  University and received a master's degree in accounting from
+                  DePaul University.
                 </p>
               </div>
               <div className="accounting-row">
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Sibo specializes in federal and state tax returns for
+                  partnerships, corporations, and individuals. He received a
+                  master's degree in accounting from Michigan Tech University.
                 </p>
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/sibo.jpg" className="accounting-picture" />
               </div>
               <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/yiru.jpg" className="accounting-picture" />
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Yiru is a recent addition to the Zhou Agency team. She worked
+                  with the team for 2018 and 2019 Tax Seasons and started the
+                  full-time job in May 2019. She received a Bachelor's and
+                  Master's Degree in Accountancy from the University of Illinois
+                  at Urbana-Champaign.
                 </p>
               </div>
             </div>

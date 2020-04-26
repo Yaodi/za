@@ -57,39 +57,38 @@ export default class Insurance extends Component {
 
             <div className="accounting-pictures">
               <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/elsie.jpg" className="accounting-picture" />
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Elsie has extensive professional experience in financial
+                  services, specializing in Property and Casualty insurance
+                  advisory. She received her Charted Property and Casualty
+                  Underwriter (CPCU) designation in 2018. She connects our
+                  insurance carriers/partners to provide the best advice and
+                  solutions to our clients for their risk management needs.
+                  Elsie received a Bachelor degree in Finance at University of
+                  Ottawa, in Canada, and a Master degree in Finance at DePaul
+                  University.
                 </p>
               </div>
               <div className="accounting-row">
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Mandy is our personal lines and employee benefits expert in
+                  our insurance department, and she received her Certified
+                  Insurance Service Representative (CISR) designation in 2018.
+                  She connects with our insurance partners to provide customized
+                  solutions to meet clients’ personal or group needs. Mandy
+                  received her master’s degree from DePaul University.
                 </p>
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/mandy.jpg" className="accounting-picture" />
               </div>
               <div className="accounting-row">
-                <img src="images/jun.png" className="accounting-picture" />
+                <img src="images/lu.jpeg" className="accounting-picture" />
                 <p>
-                  We Provide a personalized approach that takes into account
-                  your situation, your finances, your story. Here are the
-                  experts who will be helping you achieve your real estate
-                  goals. We Provide a personalized approach that takes into
-                  account your situation, your finances, your story. Here are
-                  the experts who will be helping you achieve your real estate
-                  goals.
+                  Lu provides service to both commercial and personal lines
+                  clients on all inquiries and concerns regarding coverages,
+                  policies and renewal service. She recently graduated from
+                  Auburn University with a bachelor’s degree in business
+                  administration.
                 </p>
               </div>
             </div>
