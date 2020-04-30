@@ -86,7 +86,8 @@ export const employees = [
   {
     name: "Shanshan Wu",
     title: "CPA",
-    bio: "",
+    bio:
+      "lorem ipsum dolor graduated from lorem with a degree in ipsum and a masters in dolor",
     phone: "312-561-3376",
     email: "swu@zhouagency.com",
     department: "accounting",
@@ -96,10 +97,70 @@ export const employees = [
     name: "Yiru (Evelynn) Chen",
     title: "Staff Accountant",
     bio:
-      "Yiru received a Bachelor's in Accountancy from the University of Illinois at Urbana Champaign.",
+      "lorem ipsum dolor graduated from lorem with a degree in ipsum and a masters in dolor",
     phone: "312-561-3376",
     email: "ychen@zhouagency.com",
     department: "accounting",
     image: "yiru.jpg",
+  },
+  {
+    name: "Yongle",
+    title: "Staff Accountant",
+    bio:
+      "lorem ipsum dolor graduated from lorem with a degree in ipsum and a masters in dolor",
+    phone: "312-561-3376",
+    email: "ychen@zhouagency.com",
+    department: "real estate",
+    image: "Yongle.jpeg",
+  },
+  {
+    name: "Yongle2",
+    title: "Staff Accountant",
+    bio:
+      "lorem ipsum dolor graduated from lorem with a degree in ipsum and a masters in dolor",
+    phone: "312-561-3376",
+    email: "ychen@zhouagency.com",
+    department: "real estate",
+    image: "Yongle.jpeg",
+  },
+  {
+    name: "Yongle3",
+    title: "Staff Accountant",
+    bio:
+      "lorem ipsum dolor graduated from lorem with a degree in ipsum and a masters in dolor",
+    phone: "312-561-3376",
+    email: "ychen@zhouagency.com",
+    department: "real estate",
+    image: "Yongle.jpeg",
+  },
+  {
+    name: "Elsie",
+    title: "Senior Commercial Line Account Manager",
+    bio:
+      "Elsie has extensive professional experience in financialservices, specializing in Property and Casualty insuranceadvisory. She received her Charted Property and CasualtyUnderwriter (CPCU) designation in 2018. She connects ourinsurance carriers/partners to provide the best advice andsolutions to our clients for their risk management needs.Elsie received a Bachelor degree in Finance at University ofOttawa, in Canada, and a Master degree in Finance at DePaulUniversity.",
+    phone: "312-262-5982",
+    email: "eyu@zhouagency.com",
+    department: "insurance",
+    image: "elsie.jpg",
+  },
+  {
+    name: "Elsie2",
+    title: "Senior Commercial Line Account Manager",
+    bio:
+      "Elsie has extensive professional experience in financialservices, specializing in Property and Casualty insuranceadvisory. She received her Charted Property and CasualtyUnderwriter (CPCU) designation in 2018. She connects ourinsurance carriers/partners to provide the best advice andsolutions to our clients for their risk management needs.Elsie received a Bachelor degree in Finance at University ofOttawa, in Canada, and a Master degree in Finance at DePaulUniversity.",
+    phone: "312-262-5982",
+    email: "eyu@zhouagency.com",
+    department: "insurance",
+    image: "elsie.jpg",
+  },
+  {
+    name: "Elsie3",
+    title: "Senior Commercial Line Account Manager",
+    bio:
+      "Elsie has extensive professional experience in financialservices, specializing in Property and Casualty insuranceadvisory. She received her Charted Property and CasualtyUnderwriter (CPCU) designation in 2018. She connects ourinsurance carriers/partners to provide the best advice andsolutions to our clients for their risk management needs.Elsie received a Bachelor degree in Finance at University ofOttawa, in Canada, and a Master degree in Finance at DePaulUniversity.",
+    phone: "312-262-5982",
+    email: "eyu@zhouagency.com",
+    department: "insurance",
+    image: "elsie.jpg",
   },
 ];

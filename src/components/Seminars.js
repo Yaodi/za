@@ -6,10 +6,7 @@ export default class Seminars extends Component {
     return (
       <>
         <div className="accounting-container">
-          <div className="accounting-image">
-            <Navbar />
-            <div className="accounting-text"></div>
-          </div>
+          <Navbar />
           <div className="accounting-content">
             <div className="accounting-header">Seminars</div>
             <div className="seminar-philosophy">
@@ -45,6 +42,7 @@ export default class Seminars extends Component {
               frameborder="0"
               allow="autoplay;fullscreen"
             />
+            <br />
           </div>
         </div>
       </>

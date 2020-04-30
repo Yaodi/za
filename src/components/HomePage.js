@@ -7,20 +7,11 @@ export default class Homepage extends Component {
   render() {
     return (
       <div className="home-container" flexDirection="column" maxWidth="100%">
-        <div className="home-image">
-          <img className="hidden" src="images/home-background.jpg" />
-          <div className="home-image-content">
-            <Navbar />
-            <div className="logo">
-              <h1>Zhou Agency</h1>
-              <p>
-                We are a team of dedicated experts ready to help you with all
-                your financial needs
-              </p>
-            </div>
-          </div>
-        </div>
+        <Navbar />
         <div className="home-content">
+          <div className="title">Zhou Agency</div>
+          <div className="home-graphic" />
+          <div className="padding-top50" />
           <div className="who-are-we">
             <div className="who-are-we-text">
               <br />
@@ -41,7 +32,7 @@ export default class Homepage extends Component {
                 company.
               </p>
             </div>
-            <img src="images/jun.png" className="jun" />
+            <img src="images/jun2.png" className="jun" alt="jun" />
           </div>
           <div className="why-us">
             <h1>Reviews</h1>
