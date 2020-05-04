@@ -9,13 +9,9 @@ export default class Homepage extends Component {
       <div className="home-container">
         <Navbar />
         <div className="home-content">
-<<<<<<< HEAD
           <div className="padding-top50" />
           <div className="title">Zhou Agency</div>
           <div className="home-graphic" />
-=======
-          {/* <div className="title">Zhou Agency</div> */}
->>>>>>> myb
           <div className="padding-top50" />
           <img src="images/logo.png" />
           <div className="who-are-we">
@@ -44,7 +40,6 @@ export default class Homepage extends Component {
           <div className="title">Services</div>
           <div className="home-graphic" />
           <div className="why-us">
-<<<<<<< HEAD
             <div className="padding-top50" />
             <div className="title">Reviews</div>
             <Reviews reviews={homePageReviews} />
@@ -55,41 +50,6 @@ export default class Homepage extends Component {
               alt="statistics"
               className="stats-png"
             />
-=======
-            <div className="title">Reviews</div>
-            <Reviews reviews={homePageReviews} />
-            <br />
-
-            <h1>Statistics</h1>
-            <div
-              className="stats-box-container"
-              style={{ backgroundColor: "lightgray" }}
-            >
-              <div className="stats-box-content">
-                <div className="stats-box-row">
-                  <div className="stats">
-                    <div className="bold-stats">95%</div>{" "}
-                    <p>Retention rate for insurance</p>
-                  </div>
-                  <div className="stats">
-                    <div className="bold-stats">1,685</div>
-                    <p>Tax returns filed in 2019</p>
-                  </div>
-                </div>
-                <div className="stats-box-row">
-                  <div className="stats">
-                    <div className="bold-stats">500+</div>{" "}
-                    <p>Families assisted in finding a property</p>
-                  </div>
-                  <div div className="stats">
-                    <div className="bold-stats">100+</div>{" "}
-                    <p>Small businesses with full service accounting</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="padding-top50" />
->>>>>>> myb
           </div>
           <div className="padding-top50" />
           <div className="mission-statement">
