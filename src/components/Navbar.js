@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Flex, Text } from "rebass";
 import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
@@ -12,7 +11,7 @@ export default class Navbar extends Component {
       "SEMINARS",
     ];
     return (
-      <div className="navbar" flexDirection="column">
+      <div className="navbar">
         <div className="navbar-content">
           <div className="navbar-top">
             <span> Chinese | Join Our Team | Contact Us</span>

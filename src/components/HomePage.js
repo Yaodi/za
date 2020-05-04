@@ -6,7 +6,7 @@ import Reviews from "./Reviews";
 export default class Homepage extends Component {
   render() {
     return (
-      <div className="home-container" flexDirection="column" maxWidth="100%">
+      <div className="home-container">
         <Navbar />
         <div className="home-content">
           <div className="title">Zhou Agency</div>
