@@ -39,26 +39,17 @@ export default class Accounting extends Component {
                 <td>
                   Tax Returns
                   <br />
-                  <br />
                   Tax Planning
                   <br />
-                  <br />
                   Tax consultation
-                  <br />
                   <br /> Tax Appeal
                 </td>
                 <td>
-                  Tax Returns
-                  <br />
                   Bookkeeping
-                  <br />
-                  Corp/LLC Setup
                   <br />
                   Payroll Processing
                   <br />
                   Sales Tax
-                  <br />
-                  Financial Reporting
                   <br /> Financial Review
                 </td>
               </tr>

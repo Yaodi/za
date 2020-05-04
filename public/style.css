@@ -29,7 +29,6 @@ body {
 }
 
 .who-are-we {
-  padding-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,6 +54,12 @@ body {
 
 .who-are-we-text p {
   font-size: 25px;
+}
+
+.centered-text {
+  font-size: 25px;
+  width: 30%;
+  margin: auto;
 }
 
 .jun {
@@ -129,7 +134,7 @@ body {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   color: black;
   padding-bottom: 50px;
@@ -206,6 +211,12 @@ body {
   padding: 15px;
   outline-style: solid;
   outline-color: lightgray;
+}
+
+.reviews-icon {
+  height: 25px;
+  width: auto;
+  vertical-align: top;
 }
 
 .review-text {

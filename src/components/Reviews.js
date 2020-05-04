@@ -11,6 +11,16 @@ const Reviews = (props) => {
           <br />
         </>
       ))}
+      <div>
+        View more of our reviews on{" "}
+        <a href="https://g.page/r/CY5Q7c9Syo7pEAE" target="blank">
+          Google
+        </a>{" "}
+        or{" "}
+        <a target="blank" href="https://www.yelp.com/biz/zhou-agency-chicago">
+          Yelp
+        </a>
+      </div>
     </div>
   );
 };
