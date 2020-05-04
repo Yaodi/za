@@ -9,9 +9,9 @@ export default class Homepage extends Component {
       <div className="home-container" flexDirection="column" maxWidth="100%">
         <Navbar />
         <div className="home-content">
-          <div className="title">Zhou Agency</div>
-          <div className="home-graphic" />
+          {/* <div className="title">Zhou Agency</div> */}
           <div className="padding-top50" />
+          <img src="images/logo.png" />
           <div className="who-are-we">
             <div className="who-are-we-text">
               <br />
@@ -34,8 +34,11 @@ export default class Homepage extends Component {
             </div>
             <img src="images/jun2.png" className="jun" alt="jun" />
           </div>
+          <div className="padding-top50" />
+          <div className="title">Services</div>
+          <div className="home-graphic" />
           <div className="why-us">
-            <h1>Reviews</h1>
+            <div className="title">Reviews</div>
             <Reviews reviews={homePageReviews} />
             <br />
 
@@ -61,7 +64,7 @@ export default class Homepage extends Component {
                     <p>Families assisted in finding a property</p>
                   </div>
                   <div div className="stats">
-                    <div className="bold-stats">102</div>{" "}
+                    <div className="bold-stats">100+</div>{" "}
                     <p>Small businesses with full service accounting</p>
                   </div>
                 </div>

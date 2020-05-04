@@ -29,7 +29,6 @@ body {
 }
 
 .who-are-we {
-  padding-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,6 +54,12 @@ body {
 
 .who-are-we-text p {
   font-size: 25px;
+}
+
+.centered-text {
+  font-size: 25px;
+  width: 30%;
+  margin: auto;
 }
 
 .jun {
@@ -129,12 +134,9 @@ body {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
-  padding-top: 50px;
-  padding-left: 50px;
-  color: black;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .footer {
@@ -208,6 +210,12 @@ body {
   padding: 15px;
   outline-style: solid;
   outline-color: lightgray;
+}
+
+.reviews-icon {
+  height: 25px;
+  width: auto;
+  vertical-align: top;
 }
 
 .review-text {
@@ -324,6 +332,22 @@ th {
   font-size: 25px;
   text-align: center;
   padding: 25px 120px 25px 120px;
+}
+
+.re-services-table {
+  max-width: 80%;
+}
+
+.centered-table-heading {
+  text-align: center;
+}
+.re-services-table td,
+tr {
+  border: 1px solid black;
+  font-size: 25px;
+  text-align: left;
+  padding: 20px;
+  /* padding: 25px 120px 25px 120px; */
 }
 
 .seminar-philosophy {

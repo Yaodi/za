@@ -38,28 +38,28 @@ export default class Insurance extends Component {
               </tr>
               <tr>
                 <td>
-                  ❖ Auto
-                  <br />❖ Homeowners
-                  <br />❖ Renters
-                  <br />❖ Landlord
-                  <br />❖ Umbrella
-                  <br />❖ Medical
-                  <br />❖ Term Life
-                  <br />❖ Permanent Life
-                  <br />❖ Annuity
-                  <br />❖ Disability
+                  Auto
+                  <br /> Homeowners
+                  <br /> Renters
+                  <br /> Landlord
+                  <br /> Umbrella
+                  <br /> Medical
+                  <br /> Term Life
+                  <br /> Permanent Life
+                  <br /> Annuity
+                  <br /> Disability
                 </td>
                 <td>
-                  ❖ Property
-                  <br />❖ Liability
-                  <br />❖ Workers Comp
-                  <br />❖ Business Interruption
-                  <br />❖ Business Continuation
-                  <br />❖ Employee Benefits
-                  <br />❖ Umbrella
-                  <br />❖ Key Person
-                  <br />❖ Cyber
-                  <br />❖ EPLI
+                  Property
+                  <br /> Liability
+                  <br /> Workers Comp
+                  <br /> Business Interruption
+                  <br /> Business Continuation
+                  <br /> Employee Benefits
+                  <br /> Umbrella
+                  <br /> Key Person
+                  <br /> Cyber
+                  <br /> EPLI
                 </td>
               </tr>
             </table>

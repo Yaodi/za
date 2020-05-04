@@ -12,9 +12,9 @@ const Employee = (props) => {
         />
         <p>{employee.bio}</p>
         <span>
-          Phone: <a href={`tel:${employee.phone}`}>{employee.phone}</a>
+          <a href={`tel:${employee.phone}`}>{employee.phone}</a>
           <br />
-          Email: <a href={`mailto:${employee.email}`}>{employee.email}</a>
+          <a href={`mailto:${employee.email}`}>{employee.email}</a>
           <br />
           <button className="appointment-button">
             <a href="https://www.calendly.com" target="blank">

@@ -22,7 +22,7 @@ export default class RealEstate extends Component {
                 })}
               </div>
             </div>
-            <table className="services-table">
+            <table className="re-services-table">
               <caption className="accounting-table-header">
                 Real Estate Services
               </caption>
@@ -38,16 +38,24 @@ export default class RealEstate extends Component {
               </tr>
               <tr>
                 <td>
-                  ❖ Assist you in finding and buying your dream home
-                  <br />❖ Help you sell and get the most out of your current
-                  home
+                  <ul>
+                    <li>Assist you in finding and buying your dream home</li>
+                    <li>
+                      Help you sell and get the most out of your current home
+                    </li>
+                  </ul>
                 </td>
                 <td>
-                  ❖ Find the best investment property to fit your needs and the
-                  current market
-                  <br />❖ Secure tenants, obtain rent, and manage your
-                  investment property
-                  <br />❖ Sell your investment property at highest value
+                  <ul>
+                    <li>
+                      Find the best investment property to fit your needs and
+                      the current market
+                    </li>
+                    <li>
+                      Secure tenants, obtain rent, and manage your investment
+                    </li>
+                    property
+                  </ul>
                 </td>
               </tr>
             </table>
