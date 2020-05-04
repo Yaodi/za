@@ -14,7 +14,7 @@ export default class RealEstate extends Component {
         <div className="accounting-container">
           <Navbar />
           <div className="accounting-content">
-            <div className="accounting-header">Meet Our Real Estate Team</div>
+            <div className="title">Meet Our Real Estate Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 {realEstateEmployees.map((employee) => {
@@ -23,9 +23,7 @@ export default class RealEstate extends Component {
               </div>
             </div>
             <table className="services-table">
-              <caption className="accounting-table-header">
-                Real Estate Services
-              </caption>
+              <caption className="title">Real Estate Services</caption>
               <br />
               <tr>
                 <td>
@@ -36,24 +34,31 @@ export default class RealEstate extends Component {
                   <b>Business</b>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  ❖ Assist you in finding and buying your dream home
-                  <br />❖ Help you sell and get the most out of your current
-                  home
-                </td>
-                <td>
-                  ❖ Find the best investment property to fit your needs and the
-                  current market
-                  <br />❖ Secure tenants, obtain rent, and manage your
-                  investment property
-                  <br />❖ Sell your investment property at highest value
-                </td>
-              </tr>
+              <td>
+                <ul>
+                  <li>Assist you in finding and buying your dream home</li>
+                  <li>
+                    Help you sell and get the most out of your current home
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    Find the best investment property to fit your needs and the
+                    current market
+                  </li>
+                  <li>
+                    Secure tenants, obtain rent, and manage your investment
+                    property
+                  </li>
+                  <li>Sell your investment property at highest value</li>
+                </ul>
+              </td>
             </table>
-
+            <div className="padding-top50" />
+            <div className="title">Reviews</div>
             <div className="accounting-reviews">
-              <h1>Reviews</h1>
               <Reviews reviews={accountingReviews} />
             </div>
           </div>

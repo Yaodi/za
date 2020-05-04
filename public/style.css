@@ -60,7 +60,7 @@ body {
 .jun {
   border-radius: 50%;
   height: auto;
-  width: 40%;
+  width: 30%;
 }
 
 .who-are-we-image {
@@ -131,8 +131,6 @@ body {
 .title {
   font-size: 60px;
   font-weight: bold;
-  padding-top: 50px;
-  padding-left: 50px;
   color: black;
   padding-bottom: 50px;
 }
@@ -289,7 +287,6 @@ body {
 }
 
 .accounting-reviews {
-  padding-top: 40px;
   width: 60%;
 }
 
@@ -324,6 +321,10 @@ th {
   font-size: 25px;
   text-align: center;
   padding: 25px 120px 25px 120px;
+}
+
+.stats-png {
+  width: 100%;
 }
 
 .seminar-philosophy {

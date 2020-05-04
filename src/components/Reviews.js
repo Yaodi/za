@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import Review from "./Review";
 
-const Reviews = props => {
+const Reviews = (props) => {
   const { reviews } = props;
   return (
     <div className="reviews-container">
-      {reviews.map(review => (
+      {reviews.map((review) => (
         <>
           <Review review={review} />
           <br />

@@ -14,7 +14,7 @@ export default class Insurance extends Component {
         <div className="accounting-container">
           <Navbar />
           <div className="accounting-content">
-            <div className="accounting-header">Meet Our Insurance Team</div>
+            <div className="title">Meet Our Insurance Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 {insuranceEmployees.map((employee) => {
@@ -24,9 +24,7 @@ export default class Insurance extends Component {
             </div>
 
             <table className="services-table">
-              <caption className="accounting-table-header">
-                Insurance Services
-              </caption>
+              <caption className="title">Insurance Services</caption>
               <tr>
                 <td>
                   <b>Individual </b>
@@ -38,34 +36,34 @@ export default class Insurance extends Component {
               </tr>
               <tr>
                 <td>
-                  ❖ Auto
-                  <br />❖ Homeowners
-                  <br />❖ Renters
-                  <br />❖ Landlord
-                  <br />❖ Umbrella
-                  <br />❖ Medical
-                  <br />❖ Term Life
-                  <br />❖ Permanent Life
-                  <br />❖ Annuity
-                  <br />❖ Disability
+                  Auto
+                  <br /> Homeowners
+                  <br /> Renters
+                  <br /> Landlord
+                  <br /> Umbrella
+                  <br /> Medical
+                  <br /> Term Life
+                  <br /> Permanent Life
+                  <br /> Annuity
+                  <br /> Disability
                 </td>
                 <td>
-                  ❖ Property
-                  <br />❖ Liability
-                  <br />❖ Workers Comp
-                  <br />❖ Business Interruption
-                  <br />❖ Business Continuation
-                  <br />❖ Employee Benefits
-                  <br />❖ Umbrella
-                  <br />❖ Key Person
-                  <br />❖ Cyber
-                  <br />❖ EPLI
+                  Property
+                  <br /> Liability
+                  <br /> Workers Comp
+                  <br /> Business Interruption
+                  <br /> Business Continuation
+                  <br /> Employee Benefits
+                  <br /> Umbrella
+                  <br /> Key Person
+                  <br /> Cyber
+                  <br /> EPLI
                 </td>
               </tr>
             </table>
-
+            <div className="padding-top50" />
+            <div className="title">Reviews</div>
             <div className="accounting-reviews">
-              <h1>Reviews</h1>
               <Reviews reviews={accountingReviews} />
             </div>
           </div>

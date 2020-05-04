@@ -16,7 +16,7 @@ export default class Accounting extends Component {
           <div className="accounting-content">
             <br />
 
-            <div className="accounting-header">Meet our accounting team</div>
+            <div className="title">Meet our accounting team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 {accountingEmployees.map((employee) => {
@@ -25,12 +25,7 @@ export default class Accounting extends Component {
               </div>
             </div>
             <table className="services-table">
-              <caption className="accounting-table-header">
-                Accounting Services
-              </caption>
-              <br />
-              <br />
-              <br />
+              <caption className="title">Accounting Services</caption>
               <tr>
                 <th>
                   <b className="centered-text">Individual </b>
@@ -68,9 +63,9 @@ export default class Accounting extends Component {
                 </td>
               </tr>
             </table>
-
+            <div className="padding-top50" />
+            <div className="title">Reviews</div>
             <div className="accounting-reviews">
-              <h1>Reviews</h1>
               <Reviews reviews={accountingReviews} />
             </div>
           </div>
