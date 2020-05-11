@@ -14,7 +14,8 @@ export default class Navbar extends Component {
       <div className="navbar">
         <div className="navbar-content">
           <div className="navbar-top">
-            <span> Chinese | Join Our Team | Contact Us</span>
+            <img src="images/logo-v3-transparent.png" className="home-logo" />
+            <span className="navbar-topright"> Chinese | Contact Us</span>
           </div>
           <div className="navbar-tabs">
             {departments.map((department) => (
@@ -28,13 +29,6 @@ export default class Navbar extends Component {
               </div>
             ))}
           </div>
-          {/* <div className="logo">
-            <h1>Zhou Agency</h1>
-            <p>
-              We are a team of dedicated experts ready to help you with all your
-              financial needs
-            </p>
-          </div> */}
         </div>
       </div>
     );

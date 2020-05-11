@@ -14,7 +14,7 @@ export default class RealEstate extends Component {
         <div className="accounting-container">
           <Navbar />
           <div className="accounting-content">
-            <div className="title">Meet Our Real Estate Team</div>
+            <div className="title">Our Real Estate Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 {realEstateEmployees.map((employee) => {
@@ -22,7 +22,8 @@ export default class RealEstate extends Component {
                 })}
               </div>
             </div>
-            <table className="services-table">
+            <div className="padding-top50" />
+            <table className="re-services-table">
               <caption className="title">Real Estate Services</caption>
               <br />
               <tr>
@@ -35,32 +36,23 @@ export default class RealEstate extends Component {
                 </td>
               </tr>
               <td>
-                <ul>
-                  <li>Assist you in finding and buying your dream home</li>
-                  <li>
-                    Help you sell and get the most out of your current home
-                  </li>
-                </ul>
+                - Assist you in finding and buying your dream home.
+                <br />- Help you sell and get the most out of your current home.
               </td>
               <td>
-                <ul>
-                  <li>
-                    Find the best investment property to fit your needs and the
-                    current market
-                  </li>
-                  <li>
-                    Secure tenants, obtain rent, and manage your investment
-                    property
-                  </li>
-                  <li>Sell your investment property at highest value</li>
-                </ul>
+                - Find the best investment property to fit your needs and the
+                current market.
+                <br />- Secure tenants, obtain rent, and manage your investment
+                property.
               </td>
             </table>
+            <div className="padding-top50" />
             <div className="padding-top50" />
             <div className="title">Reviews</div>
             <div className="accounting-reviews">
               <Reviews reviews={accountingReviews} />
             </div>
+            <div className="padding-top50" />
           </div>
         </div>
       </>

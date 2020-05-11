@@ -56,10 +56,10 @@ export const accountingReviews = [
 
 export const employees = [
   {
-    name: "Leah (Li) Yang",
+    name: "Leah Yang",
     title: "Accounting Manager",
     bio:
-      "Leah received her BA from Shanghai Jiao Tong University and her masters in accounting from DePaul University.",
+      "Leah received her BA from Shanghai Jiao Tong University and her Masters in Accounting from DePaul University.",
     phone: "312-808-8095",
     email: "lyang@zhouagency.com",
     department: "accounting",
@@ -68,7 +68,8 @@ export const employees = [
   {
     name: "Sibo Li",
     title: "Staff Accountant",
-    bio: "Sibo received his BA and masters in accounting from Michigan Tech.",
+    bio:
+      "Sibo received his BA and Masters in Accounting from Michigan Technological University.",
     phone: "312-808-1810",
     email: "sli@zhouagency.com",
     department: "accounting",
@@ -77,7 +78,7 @@ export const employees = [
   {
     name: "Rui Wang",
     title: "Staff Accountant",
-    bio: "Rui received her masters in Accounting from DePaul University.",
+    bio: "Rui received her Masters in Accounting from DePaul University.",
     phone: "312-808-8096",
     email: "rwang@zhouagency.com",
     department: "accounting",
@@ -86,27 +87,36 @@ export const employees = [
   {
     name: "Shanshan Wu",
     title: "Staff Accountant",
-    bio:
-      "Shanshan received her masters in Accounting from DePaul University and has passed all 4 CPA Exams.",
+    bio: "Shanshan received her Masters in Accounting from DePaul University.",
     phone: "312-561-3376",
     email: "swu@zhouagency.com",
     department: "accounting",
     image: "shanshan.png",
   },
   {
-    name: "Yiru (Evelynn) Chen",
+    name: "Evelynn Chen",
     title: "Staff Accountant",
     bio:
-      "Evelyn received her BS and MS in Accounting from University of Illinois in Urbana-Champaign and has passed all 4 CPA Exams.",
+      "Evelyn received her BS and MS in Accounting from University of Illinois in Urbana-Champaign.",
     phone: "312-585-6209",
     email: "ychen@zhouagency.com",
     department: "accounting",
     image: "yiru.jpg",
   },
   {
-    name: "Mandy Yan",
-    title: "CISR Personal Lines and Employee Benefits Account Manager",
-    bio: "Mandy received her Master's in Finance from DePaul University.",
+    name: "Elsie Yu, CPCU",
+    title: "Senior Account Manager",
+    bio:
+      "Elsie received a BS in Finance from University of Ottawa and an MS in Finance from DePaul University.",
+    phone: "312-262-5982",
+    email: "eyu@zhouagency.com",
+    department: "insurance",
+    image: "elsie.jpg",
+  },
+  {
+    name: "Mandy Yan, CISR",
+    title: "Account Manager",
+    bio: "Mandy received her Master's in Finance from DePaul University. \n ",
     phone: "312-262-5980",
     email: "myan@zhouagency.com",
     department: "insurance",
@@ -114,23 +124,13 @@ export const employees = [
   },
   {
     name: "Lulu Zhao",
-    title: "All Lines Account Assistant",
+    title: "Account Assistant",
     bio:
       "Lulu received her BA in business administration from Auburn University.",
-    phone: "312-808-8899",
-    email: "zhouagency@gmail.com",
+    phone: "312-268-2043",
+    email: "lzhao@zhouagency.com",
     department: "insurance",
     image: "lu.jpeg",
-  },
-  {
-    name: "Elsie",
-    title: "Senior Commercial Line Account Manager",
-    bio:
-      "Elsie received a BS in Finance from University of Ottawa and an MS in Finance from DePaul University.",
-    phone: "312-262-5982",
-    email: "eyu@zhouagency.com",
-    department: "insurance",
-    image: "elsie.jpg",
   },
   {
     name: "Jojo Cui",
@@ -142,16 +142,6 @@ export const employees = [
     image: "jojo.jpg",
   },
   {
-    name: "Jerry Chen",
-    title: "Projectt Manager",
-    bio:
-      "Jerry received his MS in Management Information Systems from Auckland University and his MBA from China Europe International Business School.",
-    phone: "312-808-8899",
-    email: "jchen@zhouagency.com",
-    department: "real estate",
-    image: "jerry.jpg",
-  },
-  {
     name: "Yongle",
     title: "Property Manager",
     bio: "Yongle received his BA in Finance from Loyola University.",
@@ -159,5 +149,15 @@ export const employees = [
     email: "yzhu@zhouagency.com",
     department: "real estate",
     image: "Yongle.jpeg",
+  },
+  {
+    name: "Jerry Chen",
+    title: "Project Manager",
+    bio:
+      "Jerry received his MS in Management Information Systems from Auckland University and his MBA from China Europe International Business School.",
+    phone: "312-808-8899",
+    email: "jchen@zhouagency.com",
+    department: "real estate",
+    image: "jerry.jpg",
   },
 ];

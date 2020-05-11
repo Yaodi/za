@@ -14,7 +14,7 @@ export default class Insurance extends Component {
         <div className="accounting-container">
           <Navbar />
           <div className="accounting-content">
-            <div className="title">Meet Our Insurance Team</div>
+            <div className="title">Our Insurance Team</div>
             <div className="accounting-pictures">
               <div className="accounting-row">
                 {insuranceEmployees.map((employee) => {
@@ -22,7 +22,7 @@ export default class Insurance extends Component {
                 })}
               </div>
             </div>
-
+            <div className="padding-top50" />
             <table className="services-table">
               <caption className="title">Insurance Services</caption>
               <tr>
@@ -62,10 +62,12 @@ export default class Insurance extends Component {
               </tr>
             </table>
             <div className="padding-top50" />
+            <div className="padding-top50" />
             <div className="title">Reviews</div>
             <div className="accounting-reviews">
               <Reviews reviews={accountingReviews} />
             </div>
+            <div className="padding-top50" />
           </div>
         </div>
       </>
