@@ -1,0 +1,486 @@
+body {
+  margin: 0;
+  font-family: "Crimson Text";
+  /* font-family: "Ovo"; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+.home-logo {
+  width: 550px;
+  height: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+}
+
+.who-are-we {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.why-us {
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.why-trust-us p {
+  font-size: 25px;
+}
+
+.who-are-we-text {
+  width: 40%;
+  padding-right: 50px;
+}
+
+.who-are-we-text p {
+  font-size: 22px;
+}
+
+.centered-text {
+  font-size: 25px;
+  width: 30%;
+  margin: auto;
+}
+
+.jun {
+  border-radius: 50%;
+  height: auto;
+  width: 40%;
+}
+
+.who-are-we-image {
+  width: 20%;
+  height: 100%;
+}
+
+.stats-box-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+.stats-box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.stats-box-row {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.stats-box-row p {
+  font-size: 1.7vw;
+}
+.padding-top50 {
+  padding-top: 50px;
+}
+
+.mission-statement {
+  padding: 15px;
+  width: 85%;
+  margin: auto;
+  font-size: 25px;
+  outline-style: double;
+  outline-color: black;
+  outline-width: thick;
+}
+
+.hidden {
+  width: 100%;
+  opacity: 0;
+  vertical-align: top;
+  visibility: hidden;
+}
+
+.home-image-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-content {
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  padding-bottom: 75px;
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/home-background.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar-content {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.navbar-tabs {
+  display: flex;
+  padding-top: 1%;
+  cursor: pointer;
+}
+
+.navbar-text {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-topright {
+  text-align: right;
+  flex-basis: 140px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.navbar-tab {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+  color: black;
+}
+
+.no-style-link {
+  text-decoration: none;
+  color: black;
+}
+
+.stats {
+  padding-right: 30px;
+}
+
+.bold-stats {
+  color: #7b0000;
+  font-size: 5vw;
+  font-weight: bolder;
+}
+
+.reviews-container {
+  margin: auto;
+  width: 100%;
+}
+.review {
+  padding: 15px;
+  outline-style: solid;
+  outline-color: lightgray;
+}
+
+.reviews-icon {
+  height: 25px;
+  width: auto;
+  vertical-align: top;
+}
+
+.review-text {
+  text-align: left;
+}
+
+.review-stars {
+  color: #7b0000;
+}
+
+.home-container {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  background-color: #7b0000;
+  padding-bottom: 50px;
+}
+/* accounting styles */
+
+.accounting-container {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  background-color: #7b0000;
+  padding-bottom: 50px;
+}
+
+.accounting-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.accounting-image {
+  background-image: url(images/home-background.jpg);
+  height: auto;
+  width: 100vw;
+}
+
+.accounting-text {
+  text-align: right;
+  padding-right: 150px;
+  padding-top: 450px;
+  color: #7b0000;
+}
+
+.accounting-header {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 55px;
+  width: auto;
+  margin: auto;
+  color: #7b0000;
+}
+
+.accounting-our-team {
+  text-align: left;
+  width: 30%;
+  font-size: 23px;
+}
+
+.accounting-why-us {
+  text-align: center;
+  border: solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.accounting-pictures {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.accounting-reviews {
+  width: 60%;
+}
+
+.accounting-picture {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.accounting-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+}
+
+.accounting-table-header {
+  font-weight: bold;
+  font-size: 55px;
+  color: #7b0000;
+}
+
+.services-table {
+  max-width: 80%;
+}
+
+.services-table td,
+tr,
+th {
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 25px 120px 25px 120px;
+}
+
+.re-services-table td,
+tr,
+th {
+  border: 1px solid black;
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+}
+
+.re-services-table {
+  max-width: 80%;
+}
+
+.stats-png {
+  width: 100%;
+}
+
+.seminar-philosophy {
+  padding-bottom: 25px;
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.centered-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 51%;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
+.employee-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-bottom: 60px;
+  font-size: 20px;
+  /* text-align: left; */
+}
+
+.employee-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-top p {
+  width: 60%;
+}
+
+.appointment-button {
+  font-family: "Crimson Text";
+  background-color: gray;
+  border: none;
+  padding: 17px;
+  font-size: 20px;
+}
+
+.appointment-button a {
+  text-decoration: none;
+  color: white;
+  /* color: red; */
+}
+
+.home-graphic {
+  margin: auto;
+  height: 350px;
+  background-image: url(images/home-graphic.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  padding: 5%;
+}
+
+.contact-form-container {
+  width: 50%;
+}
+
+input.contact-form,
+textarea.contact-form {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: none;
+}
+
+button.contact-form {
+  background-color: lightslategrey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.contact-form:hover {
+  background-color: slategrey;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+textarea.contact-form {
+  height: 200px;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 40px;
+  border-radius: 25px;
+  background-color: lightgray;
+}
+
+.contact-banner {
+  width: 100%;
+  background-color: #7b0000;
+}
+
+@media only screen and (max-width: 768px) {
+  .bold-stats {
+    font-size: 30px;
+  }
+}
