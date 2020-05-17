@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/yaodihu.com/za/static/js/main.d002e9c3.chunk.js",
-    "main.js.map": "/yaodihu.com/za/static/js/main.d002e9c3.chunk.js.map",
-    "runtime-main.js": "/yaodihu.com/za/static/js/runtime-main.4a031d0c.js",
-    "runtime-main.js.map": "/yaodihu.com/za/static/js/runtime-main.4a031d0c.js.map",
-    "static/js/2.e2ff2b7e.chunk.js": "/yaodihu.com/za/static/js/2.e2ff2b7e.chunk.js",
-    "static/js/2.e2ff2b7e.chunk.js.map": "/yaodihu.com/za/static/js/2.e2ff2b7e.chunk.js.map",
-    "index.html": "/yaodihu.com/za/index.html",
-    "precache-manifest.c64749624c9e7a198b4ec7b2bba6d575.js": "/yaodihu.com/za/precache-manifest.c64749624c9e7a198b4ec7b2bba6d575.js",
-    "service-worker.js": "/yaodihu.com/za/service-worker.js",
-    "static/js/2.e2ff2b7e.chunk.js.LICENSE.txt": "/yaodihu.com/za/static/js/2.e2ff2b7e.chunk.js.LICENSE.txt"
+    "main.js": "/za/static/js/main.d002e9c3.chunk.js",
+    "main.js.map": "/za/static/js/main.d002e9c3.chunk.js.map",
+    "runtime-main.js": "/za/static/js/runtime-main.1119a005.js",
+    "runtime-main.js.map": "/za/static/js/runtime-main.1119a005.js.map",
+    "static/js/2.e2ff2b7e.chunk.js": "/za/static/js/2.e2ff2b7e.chunk.js",
+    "static/js/2.e2ff2b7e.chunk.js.map": "/za/static/js/2.e2ff2b7e.chunk.js.map",
+    "index.html": "/za/index.html",
+    "precache-manifest.5743673695fd807e91fd44dfe3c24f00.js": "/za/precache-manifest.5743673695fd807e91fd44dfe3c24f00.js",
+    "service-worker.js": "/za/service-worker.js",
+    "static/js/2.e2ff2b7e.chunk.js.LICENSE.txt": "/za/static/js/2.e2ff2b7e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a031d0c.js",
+    "static/js/runtime-main.1119a005.js",
     "static/js/2.e2ff2b7e.chunk.js",
     "static/js/main.d002e9c3.chunk.js"
   ]
