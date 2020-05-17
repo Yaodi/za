@@ -5,9 +5,9 @@ import Accounting from "./Accounting";
 import Insurance from "./Insurance";
 import Seminars from "./Seminars";
 import RealEstate from "./RealEstate";
+import Contact from "./Contact";
 
 export default class Routes extends Component {
-  componentDidMount() {}
   render() {
     return (
       <>
@@ -18,6 +18,7 @@ export default class Routes extends Component {
           <Route exact path="/seminars" component={Seminars} />
           <Route exact path="/realestate" component={RealEstate} />
           <Route exact path="/home" component={Homepage} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </>
     );

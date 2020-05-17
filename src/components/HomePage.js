@@ -10,7 +10,6 @@ export default class Homepage extends Component {
         <Navbar />
         <div className="home-content">
           <div className="padding-top50" />
-          <img src="images/logo-v3.png" className="logo" />
           <div className="who-are-we">
             <div className="who-are-we-text">
               <br />
